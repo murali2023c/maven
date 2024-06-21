@@ -8,7 +8,7 @@ pipeline{
         }
         stage("build"){
             steps{
-               sh 'sudo mvn --version'
+               sh 'mvn --version'
             }
         }
         
